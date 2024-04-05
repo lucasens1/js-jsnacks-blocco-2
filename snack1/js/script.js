@@ -1,7 +1,5 @@
 //utente inserisce n
 const n = parseInt(prompt("Inserisci il numero di array che vuoi creare :"));
-const listElem = document.getElementById('listar');
-console.log(listElem);
 
 for(let a = 0; a < n; a++){
     let newArray = createArray();
