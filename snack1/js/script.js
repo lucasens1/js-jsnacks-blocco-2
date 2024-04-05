@@ -1,5 +1,5 @@
 //utente inserisce n
-const n = prompt("Inserisci il numero di array che vuoi creare :");
+const n = parseInt(prompt("Inserisci il numero di array che vuoi creare :"));
 
 
 for(let a = 0; a < n; a++){
