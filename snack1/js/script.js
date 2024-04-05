@@ -6,6 +6,10 @@ for(let a = 0; a < n; a++){
     console.log(createArray());
 }
 
+/**
+ * Description : funzione che crea array 
+ * @returns {array[]};
+ */
 function createArray() {
     //creo array
     let array = [];
