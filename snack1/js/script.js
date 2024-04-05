@@ -3,10 +3,10 @@ const n = prompt("Inserisci il numero di array che vuoi creare :");
 
 
 for(let a = 0; a < n; a++){
-    console.log(createArray(n));
+    console.log(createArray());
 }
 
-function createArray(num) {
+function createArray() {
     //creo array
     let array = [];
 
