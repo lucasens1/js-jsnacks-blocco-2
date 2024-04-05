@@ -1,9 +1,12 @@
 //utente inserisce n
 const n = parseInt(prompt("Inserisci il numero di array che vuoi creare :"));
-
+const listElem = document.getElementById('listar');
+console.log(listElem);
 
 for(let a = 0; a < n; a++){
-    console.log(createArray());
+    let newArray = createArray();
+    console.log(newArray);
+    console.log(stampArray(newArray));
 }
 
 /**
@@ -19,4 +22,11 @@ function createArray() {
     array[i] = Math.floor(Math.random() * 100 - 1) + 1;
     }
     return array;
+}
+
+function stampArray(arrayToPrint){
+
+    const resultEl = document.getElementById('listar');
+
+    resultEl.innerHTML += `<li> ${arrayToPrint} </li>` ;
 }
