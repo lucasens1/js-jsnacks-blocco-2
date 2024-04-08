@@ -1,10 +1,13 @@
 function trovaIndice(arr, a){
     let nope = -1;
+    let flag = false;
     for(let i = 0; i < arr.length; i++){
-        if(arr[i] === index){
+        if(arr[i] === a){
             return i;
-        } else{
-            return nope;
+            flag = true;
         }
+    }
+    if ( flag === false ){
+        return nope;
     }
 }
